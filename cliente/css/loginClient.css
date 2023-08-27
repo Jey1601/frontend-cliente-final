@@ -1,0 +1,101 @@
+@font-face {
+    font-family: general;
+    src: url(/frontend/assets/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+   
+}
+
+*{
+    font-family: general;
+}
+
+
+body{
+    background-image: url(../assets/images/loginBackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 100vh;
+    margin: 0;
+}
+
+#handWaving{
+    background-image: url(../assets/images/esquina.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    height: 60%;
+    width: 70%;
+}
+
+#handWaving img{
+    width: 18rem;
+    padding: 15%;
+}
+
+
+#main{
+    position: relative;
+    height: 65%;
+}
+
+section{
+    height: 35%;
+    position: relative;
+}
+
+section p{
+    font-size: xx-large;
+    color: #f9f9f9;
+    margin: 0;
+}
+
+section div{
+    margin-left: 2rem;
+    position: absolute;
+    bottom: 100px;
+}
+
+#loginForm{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 6rem 0 2rem;
+    gap: 1rem;
+}
+
+#loginForm input{
+    border: 1px solid gray;
+    border-radius: 7px;
+    height: 20px;
+}
+
+#loginForm button{
+    color: #f9f9f9;
+    width: 110px;
+    background-color: #ff6392;
+    border: none;
+    height: 28px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.formText{
+    color: gray;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.loginText{
+    position: absolute;
+    bottom: 33px;
+    margin-left: 1rem;
+    color:#13070c; 
+    text-decoration: none;
+}
+

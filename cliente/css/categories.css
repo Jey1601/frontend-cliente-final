@@ -1,0 +1,237 @@
+@font-face {
+    font-family: general;
+    src: url(/frontend/assets/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+
+*{
+    font-family: general;
+}
+
+body{
+    min-height: 100vh;
+    max-height: fit-content;
+    margin: 0;
+    position: relative;
+}
+
+header{
+    background-image: url(../assets/images/headerBackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+}
+
+header section{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.logo{
+    width: 45px;
+    height: 45px;
+}
+
+#welcomeCategories{
+    padding: 8px 0 0 0;
+}
+
+#welcomeCategories p{
+    margin: 0;
+    font-size: smaller;
+    color: #f9f9f9;
+}
+
+nav{
+    padding: 0 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    padding: 0 0 10px;
+}
+
+nav input{
+    width: 70%;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding-left: 1rem;
+}
+
+nav input::placeholder{
+    font-size: small;
+    color: rgb(0, 0, 0,0.2);
+}   
+
+nav button{
+    background: none;
+    border: none;
+}
+
+nav i{
+    font-size: x-large;
+}
+
+.nav-link{
+    padding: 0 !important;
+}
+
+
+#cantidadCarrito{
+    position: absolute;
+    top: -65%;
+    left: 50%;
+    background-color: #ff6392;
+    border-radius: 100%;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cantidadCarrito p{
+    color: #f9f9f9;
+    font-size: x-small;
+    margin: 0;
+}
+/*////////////////Main////////////////*/
+
+main{
+    padding: 1rem 1rem 6rem 1rem;
+    height: fit-content;
+}
+
+.sloganCategories{
+    font-size: x-large;
+    color: gray;
+}
+
+/*////////// Categorie Card//////////////*/
+.categorieCard{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 12px;
+    height: 175px;
+    position: relative;
+    margin-top: 10px;
+}
+
+
+
+.categorieImage{
+    position: relative;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+.categorieImageBackground{
+    background-color: #ff6392; /* Color de fondo para elementos pares */
+    height: 7rem;
+    width: 5rem;
+    border-radius: 15px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+.categorieImage img{
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    width: 70%;
+    bottom: 35%;
+}
+
+.categorieCard p{
+    position: absolute;
+    bottom: 0;
+    color: gray;
+}
+
+/*/////// footer///////////////*/
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #5aa9e6;
+    display: flex;
+    gap: 2rem;
+    width: -webkit-fill-available;
+    padding: 10px;
+    height: 5rem;
+}
+
+footer div a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 9px;
+    font-weight: lighter;
+}
+
+footer div p{
+    margin: 0;
+    font-weight: bold;
+    color: #f9f9f9;
+    font-size: 12px;
+}
+
+/*//////////////Menu Lateral/////////////*/
+.offcanvas{
+    background-color: #5aa9e6 !important;
+}
+
+#imgMenuProfile{
+    border-radius: 100%;
+    overflow: hidden;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 2rem;
+}
+
+#imgMenuProfile img{
+    object-fit: cover;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+#rightMenu p{
+    background-color: #7fc8f8;
+    height: 3rem;
+    width: 15rem;
+    border-radius: 0 50px 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9f9f9;
+    font-size: larger;
+    margin-top: 1rem;
+}
+
+#rightMenu a{
+    color: #f9f9f9;
+}
+
+#rightMenu li{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.imgMenuProfile{
+    overflow: hidden;
+    width: 12rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.imgMenuProfile img{
+    width: 12rem;
+} 

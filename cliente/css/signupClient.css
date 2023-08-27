@@ -1,0 +1,104 @@
+@font-face {
+    font-family: general;
+    src: url(/frontend/assets/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+
+*{
+    font-family: general;
+}
+
+body{
+    background-image: url(../assets/images/signupBackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 100vh;
+    margin: 0;
+}
+
+.message{
+    height: 17%;
+    width: -webkit-fill-available;
+    display: relative;
+    position: relative;
+}
+
+.message div{
+    margin-left: 2rem;
+    position: absolute;
+    bottom: 0;
+    width: 35%;
+}
+
+.message p{
+    font-size: xx-large;
+    color: #f9f9f9;
+    margin: 0;
+}
+
+.signUpFormContainer{
+    height: 40%;
+    width: -webkit-fill-available;
+
+    
+}
+
+#signUpForm{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2rem;
+}
+
+#signUpForm input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f9f9f9;
+    padding-bottom: 10px;
+    outline: none;
+    color: #f9f9f9;
+}
+
+#signUpForm input::placeholder{
+    color: #f9f9f9;
+    font-size: 14px;
+}
+
+#signUpForm button{
+    color: #f9f9f9;
+    width: 110px;
+    background-color: #ff6392;
+    border: none;
+    height: 28px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+
+.link {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    text-decoration: none;
+    color: #13070c;
+}
+
+.btn-invalid{
+    background-color: #df789793 !important;
+    color: #f9f9f973 !important;
+    border: none;
+    height: 28px;
+    border-radius: 7px;
+    font-size: 14px;
+    width: 110px;
+}
+
+.inputInvalid{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #da1515 !important;
+    padding-bottom: 10px;
+    outline: none;
+}
+
